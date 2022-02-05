@@ -7,16 +7,15 @@
 
 import Foundation
 
-class User {
+struct User {
     var login: String
     var password: String
     var name: String
     
-    init(login: String, password: String, name: String) {
-        self.login = login
-        self.password = password
-        self.name = name
+    static func getUserData() -> User {
+        User(
+            login: "AlexanderUsername",
+            password: "AlexanderPassword",
+            name: "Alexander")
     }
 }
-
-let user = User(login: "AlexanderUsername", password: "AlexanderPassword", name: "Alexander")

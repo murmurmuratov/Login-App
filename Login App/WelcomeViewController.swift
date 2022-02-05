@@ -8,6 +8,8 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
+    var user: User!
+    
     @IBOutlet var emojiLabel: UILabel!
     @IBOutlet var welcomeLabel: UILabel!
     @IBOutlet var paragraphLabel: UILabel!

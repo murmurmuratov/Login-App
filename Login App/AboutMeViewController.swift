@@ -8,6 +8,8 @@
 import UIKit
 
 class AboutMeViewController: UIViewController {
+    
+    var user: User!
 
     @IBOutlet var navControllerLabel: UINavigationItem!
     
